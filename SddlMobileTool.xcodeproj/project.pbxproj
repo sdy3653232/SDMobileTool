@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B43348682092BD2A00492EBD /* SddlMobileTool.h in Headers */ = {isa = PBXBuildFile; fileRef = B43348662092BD2A00492EBD /* SddlMobileTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B43348762092CE6800492EBD /* NumberTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43348752092CE6800492EBD /* NumberTool.swift */; };
+		B433487E2092EC7600492EBD /* SddlMobileToolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B433487D2092EC7600492EBD /* SddlMobileToolTests.swift */; };
+		B43348802092EC7600492EBD /* SddlMobileTool.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B43348632092BD2A00492EBD /* SddlMobileTool.framework */; };
+		B43348862092ECEA00492EBD /* NumberTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43348752092CE6800492EBD /* NumberTool.swift */; };
+		B433488D2092F66000492EBD /* NumberTool.swift in Headers */ = {isa = PBXBuildFile; fileRef = B43348752092CE6800492EBD /* NumberTool.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B43348812092EC7600492EBD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B433485A2092BD2A00492EBD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B43348622092BD2A00492EBD;
+			remoteInfo = SddlMobileTool;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B43348632092BD2A00492EBD /* SddlMobileTool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SddlMobileTool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B43348662092BD2A00492EBD /* SddlMobileTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SddlMobileTool.h; sourceTree = "<group>"; };
+		B43348672092BD2A00492EBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B43348752092CE6800492EBD /* NumberTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberTool.swift; sourceTree = "<group>"; };
+		B433487B2092EC7600492EBD /* SddlMobileToolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SddlMobileToolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B433487D2092EC7600492EBD /* SddlMobileToolTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SddlMobileToolTests.swift; sourceTree = "<group>"; };
+		B433487F2092EC7600492EBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B433485F2092BD2A00492EBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B43348782092EC7600492EBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B43348802092EC7600492EBD /* SddlMobileTool.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B43348592092BD2A00492EBD = {
+			isa = PBXGroup;
+			children = (
+				B43348652092BD2A00492EBD /* SddlMobileTool */,
+				B433487C2092EC7600492EBD /* SddlMobileToolTests */,
+				B43348642092BD2A00492EBD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B43348642092BD2A00492EBD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B43348632092BD2A00492EBD /* SddlMobileTool.framework */,
+				B433487B2092EC7600492EBD /* SddlMobileToolTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B43348652092BD2A00492EBD /* SddlMobileTool */ = {
+			isa = PBXGroup;
+			children = (
+				B43348702092C37900492EBD /* Sources */,
+				B43348662092BD2A00492EBD /* SddlMobileTool.h */,
+				B43348672092BD2A00492EBD /* Info.plist */,
+			);
+			path = SddlMobileTool;
+			sourceTree = "<group>";
+		};
+		B43348702092C37900492EBD /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				B43348752092CE6800492EBD /* NumberTool.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		B433487C2092EC7600492EBD /* SddlMobileToolTests */ = {
+			isa = PBXGroup;
+			children = (
+				B433487D2092EC7600492EBD /* SddlMobileToolTests.swift */,
+				B433487F2092EC7600492EBD /* Info.plist */,
+			);
+			path = SddlMobileToolTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		B43348602092BD2A00492EBD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B43348682092BD2A00492EBD /* SddlMobileTool.h in Headers */,
+				B433488D2092F66000492EBD /* NumberTool.swift in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		B43348622092BD2A00492EBD /* SddlMobileTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B433486B2092BD2A00492EBD /* Build configuration list for PBXNativeTarget "SddlMobileTool" */;
+			buildPhases = (
+				B433485E2092BD2A00492EBD /* Sources */,
+				B433485F2092BD2A00492EBD /* Frameworks */,
+				B43348602092BD2A00492EBD /* Headers */,
+				B43348612092BD2A00492EBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SddlMobileTool;
+			productName = SddlMobileTool;
+			productReference = B43348632092BD2A00492EBD /* SddlMobileTool.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B433487A2092EC7600492EBD /* SddlMobileToolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B43348832092EC7600492EBD /* Build configuration list for PBXNativeTarget "SddlMobileToolTests" */;
+			buildPhases = (
+				B43348772092EC7600492EBD /* Sources */,
+				B43348782092EC7600492EBD /* Frameworks */,
+				B43348792092EC7600492EBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B43348822092EC7600492EBD /* PBXTargetDependency */,
+			);
+			name = SddlMobileToolTests;
+			productName = SddlMobileToolTests;
+			productReference = B433487B2092EC7600492EBD /* SddlMobileToolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B433485A2092BD2A00492EBD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = sddl;
+				TargetAttributes = {
+					B43348622092BD2A00492EBD = {
+						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 0930;
+					};
+					B433487A2092EC7600492EBD = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = B433485D2092BD2A00492EBD /* Build configuration list for PBXProject "SddlMobileTool" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B43348592092BD2A00492EBD;
+			productRefGroup = B43348642092BD2A00492EBD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B43348622092BD2A00492EBD /* SddlMobileTool */,
+				B433487A2092EC7600492EBD /* SddlMobileToolTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B43348612092BD2A00492EBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B43348792092EC7600492EBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B433485E2092BD2A00492EBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B43348762092CE6800492EBD /* NumberTool.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B43348772092EC7600492EBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B43348862092ECEA00492EBD /* NumberTool.swift in Sources */,
+				B433487E2092EC7600492EBD /* SddlMobileToolTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B43348822092EC7600492EBD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B43348622092BD2A00492EBD /* SddlMobileTool */;
+			targetProxy = B43348812092EC7600492EBD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B43348692092BD2A00492EBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B433486A2092BD2A00492EBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B433486C2092BD2A00492EBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = KJM8923788;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = SddlMobileTool/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.sddl.com.SddlMobileTool;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B433486D2092BD2A00492EBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = KJM8923788;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = SddlMobileTool/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.sddl.com.SddlMobileTool;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B43348842092EC7600492EBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KJM8923788;
+				INFOPLIST_FILE = SddlMobileToolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.sddl.com.SddlMobileToolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B43348852092EC7600492EBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KJM8923788;
+				INFOPLIST_FILE = SddlMobileToolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.sddl.com.SddlMobileToolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B433485D2092BD2A00492EBD /* Build configuration list for PBXProject "SddlMobileTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B43348692092BD2A00492EBD /* Debug */,
+				B433486A2092BD2A00492EBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B433486B2092BD2A00492EBD /* Build configuration list for PBXNativeTarget "SddlMobileTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B433486C2092BD2A00492EBD /* Debug */,
+				B433486D2092BD2A00492EBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B43348832092EC7600492EBD /* Build configuration list for PBXNativeTarget "SddlMobileToolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B43348842092EC7600492EBD /* Debug */,
+				B43348852092EC7600492EBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B433485A2092BD2A00492EBD /* Project object */;
+}
